@@ -187,7 +187,7 @@ function removeRows(): void {
   // Final step Adding Audio
 $section?.addEventListener('click', () => {
   $section.remove();
-  const audio = new Audio('../public/sounds/Tetris.mp3');
+  const audio = new Audio('./sounds/Tetris.mp3');
   audio.volume = 0.5;
   audio.loop = true;
   audio.play();
